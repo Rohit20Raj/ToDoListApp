@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
+// const host = "http://localhost:5000";
+const host = "https://todolistapp-np4v.onrender.com";
+
 const Login = (props) => {
   const [credentials, setCredentials] = useState({ email: "", password: "" });
   // let history = unstable_HistoryRouter();
@@ -8,7 +11,7 @@ const Login = (props) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("https://todo-list-backend-d9w2.onrender.com/api/auth/login", {
+    const response = await fetch(`${host}/api/auth/login`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -2,7 +2,8 @@ import NoteContext from "./noteContext";
 import { useState } from "react";
 
 const NoteState = (props) => {
-  const host = "https://todo-list-backend-d9w2.onrender.com";
+  // const host = "http://localhost:5000";
+  const host = "https://todolistapp-np4v.onrender.com";
   const notesInitial = [];
   const [notes, setNotes] = useState(notesInitial);
 

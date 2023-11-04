@@ -18,5 +18,9 @@ app.get('/', (req, res) => {
 })
 
 app.listen(port, () => {
-  console.log(`Done'n'Dusted listening on: http://localhost:${port}`)
+  if (port === 5000) {
+    console.log(`Done'n'Dusted listening on: http://localhost:${port}`)
+  } else{
+    console.log(`Done'n'Dusted listening on port ${port}`)
+  }
 })
