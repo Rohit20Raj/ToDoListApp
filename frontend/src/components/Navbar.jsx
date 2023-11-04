@@ -24,7 +24,7 @@ const Navbar = () => {
               </li>
 
               <li className="nav-item">
-                <Link className={`nav-link ${location.pathname === '/about' ? 'active text-light' : ''}`} aria-current="page" to="/about">About</Link>
+                {/* <Link className={`nav-link ${location.pathname === '/about' ? 'active text-light' : ''}`} aria-current="page" to="/about">About</Link> */}
               </li>
 
             </ul>
