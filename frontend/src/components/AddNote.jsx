@@ -31,7 +31,7 @@ const AddNote = (props) => {
 
             <div className="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                 <div className="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                    <div className="modal-content">
+                    <div className="modal-content bg-light">
                         <div className="modal-header">
                             <h1 className="modal-title fs-5" id="exampleModalLabel">Add a Note</h1>
                             <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
