@@ -1,5 +1,5 @@
 # ToDoListApp
-## The site is live on `https://rohitrajtodowebapp.netlify.app`
+## The site is live on https://rohitrajtodowebapp.netlify.app
 
 ## Steps for running and testing the application on your local machine
 
