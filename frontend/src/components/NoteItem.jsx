@@ -12,7 +12,7 @@ const NoteItem = (props) => {
     let date = note.date;
     return (
         <div className='p-2'>
-            <div className="card mb-3">
+            <div className="card mb-3" >
                 <span className="badge  text-bg-danger" style={{
                     position: 'absolute',
                     zIndex: '1',
